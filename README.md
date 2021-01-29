@@ -123,7 +123,8 @@ curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/r
 
 Installing Metricbeat:
 
-- Download the metribeat configuration template with the following command: curl -----
+- Download the metribeat configuration template with the following command:
+curl --header "PRIVATE-TOKEN: [PRIVATE_TOKEN]" https://gitlab.com/api/v4/projects/11/repository/files/metricbeat-config.yml/raw?ref=master -o metricbeat-config.yml > /etc/ansible/files/metricbeat-config.yml
 - Edit lines #96 by replacing the IP address with the IP address of your ELK machine.
 - Save the file in  /etc/ansible/files/metricbeat-config.yml.
 - Creat a metric playbook and save at /etc/ansible/metricbeat-playbookl.yml
