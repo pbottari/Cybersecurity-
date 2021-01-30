@@ -83,7 +83,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Images/docker ps.png" width="1000">
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Images/docker ps.png" width="500">
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -120,6 +120,8 @@ curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/r
 	- Scroll to the bottom of the page and click Verify Incoming Data.
 - You should begin seeing information such as the following:
 
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Images/filebeat.png" width="1000">
+
 
 Installing Metricbeat:
 
@@ -135,6 +137,7 @@ curl --header "PRIVATE-TOKEN: [PRIVATE_TOKEN]" https://gitlab.com/api/v4/project
 	- Scroll to the bottom of the page and click Verify Incoming Data.
 - You should begin seeing information such as the following:
 
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Images/metricbeat.png" width="1000">
 
 
 
