@@ -5,28 +5,28 @@ This repository show case the projects completed during the GWU Cybersecurity Bo
 
 The files in this repository were used to configure the network depicted below.
 
-<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Images/Azure Cloud Security Diagram.png" width="1000">
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Diagrams/Azure Cloud Security Diagram.png" width="1000">
 
 Make sure ansible is installed and configured prior to generate a live ELK deployment. 
 
-- [Ansible_Config](https://github.com/pbottari/Cybersecurity-/blob/main/files/ansible.cfg)
+- [Ansible_Config](https://github.com/pbottari/Cybersecurity-/blob/main/Ansible/ansible.cfg)
 	- To configure the ansible.cfg file, uncomment the remote_user line and replace root with your admin username using this format: remote_user = user-name-for-web-VMs
 	
-- [Host File](https://github.com/pbottari/Cybersecurity-/blob/main/files/hosts)
+- [Host File](https://github.com/pbottari/Cybersecurity-/blob/main/Ansible/hosts)
 	- To the host file, uncomment the [webservers] header line and add the internal IP address under the [webservers] header with the python line ansible_python_interpreter=/usr/bin/python3 besides each IP.
 	
-- [Ansible -Playbook](https://github.com/pbottari/Cybersecurity-/blob/main/files/pentest.yml)
+- [Ansible -Playbook](https://github.com/pbottari/Cybersecurity-/blob/main/Ansible/pentest.yml)
 	- To configure a VM with the DVWA web app. 
 	- Run curl localhost/setup.php to test the connection.
 	
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat. 
 
-  - [Install_Elk.yml](https://github.com/pbottari/Cybersecurity-/blob/main/files/install-elk.yml)
-  - [Filebeat-Config.yml](https://github.com/pbottari/Cybersecurity-/blob/main/files/filebeat-config.yml)
-  - [Metricbeat-Config.yml](https://github.com/pbottari/Cybersecurity-/blob/main/metricbeat-config.yml)
-  - [Filebeat-Playbook.yml](https://github.com/pbottari/Cybersecurity-/blob/main/files/filebeat-playbook.yml)
-  - [Metricbeat-Playbook.yml](https://github.com/pbottari/Cybersecurity-/blob/main/files/metricbeat-playbook.yml)
+  - [Install_Elk.yml](https://github.com/pbottari/Cybersecurity-/blob/main/Linux/install-elk.yml)
+  - [Filebeat-Config.yml](https://github.com/pbottari/Cybersecurity-/blob/main/Linux/filebeat-config.yml)
+  - [Metricbeat-Config.yml](https://github.com/pbottari/Cybersecurity-/blob/main/Linux/metricbeat-config.yml)
+  - [Filebeat-Playbook.yml](https://github.com/pbottari/Cybersecurity-/blob/main/Linux/filebeat-playbook.yml)
+  - [Metricbeat-Playbook.yml](https://github.com/pbottari/Cybersecurity-/blob/main/Linux/metricbeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
@@ -96,7 +96,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Images/dockerps.PNG">
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Diagrams/dockerps.PNG">
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -133,7 +133,7 @@ curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/r
 	- Scroll to the bottom of the page and click Verify Incoming Data.
 - You should begin seeing information such as the following:
 
-<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Images/Filebeat1.png">
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Diagrams/Filebeat1.png">
 
 
 Installing Metricbeat:
@@ -150,7 +150,7 @@ curl https://gist.githubusercontent.com/slape/58541585cc1886d2e26cd8be557ce04c/r
 	- Scroll to the bottom of the page and click Verify Incoming Data.
 - You should begin seeing information such as the following:
 
-<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Images/metricbeat1.png">
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Diagrams/metricbeat1.png">
 
 
 
