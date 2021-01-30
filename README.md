@@ -10,13 +10,14 @@ The files in this repository were used to configure the network depicted below.
 Make sure ansible is installed and configured prior to generate a live ELK deployment. 
 
 - [Ansible_Config](https://github.com/pbottari/Cybersecurity-/blob/main/files/ansible.cfg)
-	- To configure the ansible.cfg file, uncomment the remote_user line and replace root with your admin username using this format: remote_user = <user-name-for-web-VMs>.
+	- To configure the ansible.cfg file, uncomment the remote_user line and replace root with your admin username using this format: remote_user = user-name-for-web-VMs
 	
 - [Host File](https://github.com/pbottari/Cybersecurity-/blob/main/files/hosts)
 	- To the host file, uncomment the [webservers] header line and add the internal IP address under the [webservers] header with the python line ansible_python_interpreter=/usr/bin/python3 besides each IP.
 	
 - [Ansible -Playbook](https://github.com/pbottari/Cybersecurity-/blob/main/files/pentest.yml)
-	- To configure a VM with the DVWA web app. Run curl localhost/setup.php to test the connection.
+	- To configure a VM with the DVWA web app. 
+	- Run curl localhost/setup.php to test the connection.
 	
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat. 
