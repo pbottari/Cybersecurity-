@@ -9,7 +9,7 @@ The files in this repository were used to configure the network depicted below.
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
-  - /etc/ansible/install_elk.yml 
+  - [Install_Elk.yml](https://github.com/pbottari/Cybersecurity-/blob/main/files/1-Lesson-Plans_13-Elk-Stack-Project_Activities_Stu_Day_1_Solved_Resources_install-elk.yml)
   - /etc.ansible/files/filebeat-config.yml
   - /etc/ansible/files/metricbeat-config.yml
   - /etc/ansible/filebeat-playbook.yml
