@@ -7,8 +7,17 @@ The files in this repository were used to configure the network depicted below.
 
 <img src="https://github.com/pbottari/Cybersecurity-/blob/main/Images/Azure Cloud Security Diagram.png" width="1000">
 
+Make sure ansible is installed and configured prior to generate a live ELK deployment. 
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
+- [Ansible_Config](https://github.com/pbottari/Cybersecurity-/blob/main/files/ansible.cfg)
+	- To configure the ansible.cfg file, uncomment the remote_user line and replace root with your admin username using this format: remote_user = <user-name-for-web-VMs>
+	
+- [Host File](https://github.com/pbottari/Cybersecurity-/blob/main/files/hosts)
+	- To the host file, uncomment the [webservers] header line and add the internal IP address under the [webservers] header with the python line ansible_python_interpreter=/usr/bin/python3 besides each IP. 
+	
+
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat. 
+
   - [Install_Elk.yml](https://github.com/pbottari/Cybersecurity-/blob/main/files/install-elk.yml)
   - [Filebeat-Config.yml](https://github.com/pbottari/Cybersecurity-/blob/main/files/filebeat-config.yml)
   - [Metricbeat-Config.yml](https://github.com/pbottari/Cybersecurity-/blob/main/metricbeat-config.yml)
