@@ -120,7 +120,7 @@ curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/r
 	- Scroll to the bottom of the page and click Verify Incoming Data.
 - You should begin seeing information such as the following:
 
-<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Images/filebeatk.png" width="1000">
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Images/filebeat1.png">
 
 
 Installing Metricbeat:
@@ -137,7 +137,7 @@ curl --header "PRIVATE-TOKEN: [PRIVATE_TOKEN]" https://gitlab.com/api/v4/project
 	- Scroll to the bottom of the page and click Verify Incoming Data.
 - You should begin seeing information such as the following:
 
-<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Images/metricbeatk.png" width="1000">
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Images/metricbeat1.png">
 
 
 
