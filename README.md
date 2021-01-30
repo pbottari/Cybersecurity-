@@ -10,10 +10,13 @@ The files in this repository were used to configure the network depicted below.
 Make sure ansible is installed and configured prior to generate a live ELK deployment. 
 
 - [Ansible_Config](https://github.com/pbottari/Cybersecurity-/blob/main/files/ansible.cfg)
-	- To configure the ansible.cfg file, uncomment the remote_user line and replace root with your admin username using this format: remote_user = <user-name-for-web-VMs>
+	- To configure the ansible.cfg file, uncomment the remote_user line and replace root with your admin username using this format: remote_user = <user-name-for-web-VMs>.
 	
 - [Host File](https://github.com/pbottari/Cybersecurity-/blob/main/files/hosts)
-	- To the host file, uncomment the [webservers] header line and add the internal IP address under the [webservers] header with the python line ansible_python_interpreter=/usr/bin/python3 besides each IP. 
+	- To the host file, uncomment the [webservers] header line and add the internal IP address under the [webservers] header with the python line ansible_python_interpreter=/usr/bin/python3 besides each IP.
+	
+- [Ansible -Playbook](https://github.com/pbottari/Cybersecurity-/blob/main/files/pentest.yml)
+	- To configure a VM with the DVWA web app. Run curl localhost/setup.php to test the connection.
 	
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat. 
@@ -55,7 +58,7 @@ The configuration details of each machine may be found below:
 | Web-1                | Web Server           | 10.1.0.4    | Linux            |
 | Web-2                | Web Server           | 10.1.0.6    | Linux            |
 | Web-3                | Web Server           | 10.1.0.7    | Linux            |
-| Elk-1                | ElasticSearch Stack  | 10.0.0.4    | Linux            |
+| Elk-1                | monitor              | 10.0.0.4    | Linux            |
 
 ### Access Policies
 
@@ -65,8 +68,8 @@ Only the load balance can accept connections from the Internet. Access to this m
 - Public IP 40.88.37.106
 
 Machines within the network can only be accessed by ssh connection from the jumpbox gateway.
-- Private IP 10.1.0.5
-- Public IP 52.149.214.56
+- Jump Box Private IP 10.1.0.5
+- Jump Box Public IP 52.149.214.56
 
 A summary of the access policies in place can be found in the table below:
 
