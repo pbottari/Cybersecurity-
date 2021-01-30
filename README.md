@@ -5,7 +5,7 @@ This repository show case the projects completed during the GWU Cybersecurity Bo
 
 The files in this repository were used to configure the network depicted below.
 
-<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Images/AzureCloudSecurityDiagram.png" width="1000">
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Images/Azure Cloud Security Diagram.png" width="1000">
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
