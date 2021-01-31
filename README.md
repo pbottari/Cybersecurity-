@@ -40,6 +40,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 - *Metricbeat* collects metrics from the operating system and from services running on the server. It then takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash.
 
+
 The configuration details of each machine may be found below:
 
 | Name                 | Function             | IP Address  | Operating System |
@@ -49,6 +50,7 @@ The configuration details of each machine may be found below:
 | Web-2                | Web Server           | 10.1.0.6    | Linux            |
 | Web-3                | Web Server           | 10.1.0.7    | Linux            |
 | Elk-1                | monitor              | 10.0.0.4    | Linux            |
+
 
 ### Access Policies
 
@@ -89,13 +91,13 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- Jump Box (10.0.0.5)
-- Web-1    (10.1.0.4)
-- Web-2    (10.1.0.6)
-- Web-3    (10.1.0.7)
+Jump Box (10.0.0.5)
+Web-1    (10.1.0.4)
+Web-2    (10.1.0.6)
+Web-3    (10.1.0.7)
 
-- We have installed the Filebeat and Metricbeat on the following machines: Web-1, Web-2, Web-3.
-- These Beats allow us to collect the following information from each machine:
+We have installed the Filebeat and Metricbeat on the following machines: Web-1, Web-2, Web-3.
+These Beats allow us to collect the following information from each machine:
 
    - *Filebeat* collects elasticsearch log data, log evens and ship them to the monitoriung cluster. The recent logs are visible in Kibana on the monitoring page.
    - *Metricbeat* Collect metrics from your systems and services. It is a lightweight way to send system and service statistics, from CPU to memory, Redis to NGINX, and more. 
