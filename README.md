@@ -30,13 +30,15 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
 
-- A loadbalancer ensures performance and balances traffic across multiple servers. It also add resiliency by rerouting live traffic from one server to another if a server falls prey to DDoS attacks or otherwise becomes unavailable 
-- A jumpbox or bastion serves as a specific point of access for the user to connect to other servers, it can secured, monitored and it also allows IT admins to access and manage devices in a separate security zoom. 
+- A *load balancer* ensures performance and balances traffic across multiple servers. It adds resiliency by rerouting live traffic from one server to another if a server falls prey to DDoS attacks or otherwise becomes unavailable.
+
+- A *jumpbox* or *bastion* serves as a specific point of access for the user to connect to other servers, it can secured, monitored and it also allows IT admins to access and manage devices in a separate security zoom. 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the log and system traffic.
 
-- Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
-- Metricbeat collects metrics from the operating system and from services running on the server. It then takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash.
+- *Filebeat* monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
+
+- *Metricbeat* collects metrics from the operating system and from services running on the server. It then takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash.
 
 The configuration details of each machine may be found below:
 
@@ -53,11 +55,11 @@ The configuration details of each machine may be found below:
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the load balance can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- Public IP 40.88.37.106
+- Public IP: 40.88.37.106
 
 Machines within the network can only be accessed by ssh connection from the jumpbox gateway.
-- Jump Box Private IP 10.1.0.5
-- Jump Box Public IP 52.149.214.56
+- Jump Box Private IP: 10.1.0.5
+- Jump Box Public IP:  52.149.214.56
 
 A summary of the access policies in place can be found in the table below:
 
@@ -87,55 +89,55 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-Jump Box (10.0.0.5)
-Web-1    (10.1.0.4)
-Web-2    (10.1.0.6)
-Web-3    (10.1.0.7)
+- Jump Box (10.0.0.5)
+- Web-1    (10.1.0.4)
+- Web-2    (10.1.0.6)
+- Web-3    (10.1.0.7)
 
-- We have installed the Filebeat and Metricbeat on the following machines: Web-1, Web-2, Web-3
+- We have installed the Filebeat and Metricbeat on the following machines: Web-1, Web-2, Web-3.
 - These Beats allow us to collect the following information from each machine:
 
-   - Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
-   - Metricbeat periodically collects metrics from the operating system and from services running on the server. It takes the metrics and statistics that it collects and ships them to outputs such as Elasticsearch or Logstash.
+   - *Filebeat* collects elasticsearch log data, log evens and ship them to the monitoriung cluster. The recent logs are visible in Kibana on the monitoring page.
+   - *Metricbeat* Collect metrics from your systems and services. It is a lightweight way to send system and service statistics, from CPU to memory, Redis to NGINX, and more. 
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
-SSH into the control node and follow the steps below:
-- Copy the install_elk.yml playbook file to /etc/ansible/
-- Update the hosts file on /etc/ansible to include your new elk VM bny adding the line 10.0.0.4 ansible_pythin_interpreter=/usr/bin/python3 under the [elk] section. 
-- Run the playbook, and navigate to http://[your_elk_server_ip]:5601/app/kibana to check that the installation worked as expected.
+- SSH into the control node and follow the steps below:
+	- Copy the `install_elk.yml` playbook file to the ansible directory `etc/ansible`
+	- Update the hosts file located at `etc/ansible` to include your new elk VM by adding the line `10.0.0.4 ansible_pythin_interpreter=/usr/bin/python3` under `[elk]` header. 
+	- Run the playbook, and navigate to `http://[your_elk_server_ip]:5601/app/kibana` to check that the installation worked as expected.
 
-Installing Filebeat:
+-Installing Filebeat:
 
-- Download the filebeat configuration template with the following command: 
+	- Download the filebeat configuration template with the following command: 
 curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/files/filebeat-config.yml
-- Edit lines #1106 and #1806 by replacing the IP address with the IP address of your ELK machine.
-- Save the file in  /etc/ansible/files/filebeat-config.yml.
-- Creat a filebeat playbook and save at /etc/ansible/filebeat-playbookl.yml
-- Run the playbook by running the command: ansible-playbook /etc/ansible/filebeat_playbook.yml
-- After the playbook completes, follow the steps below to confirm that the ELK stack is receiving logs from your DVWA machines
- - Navigate back to the Filebeat installation page on the ELK server GUI.
-	- On the same page, scroll to Step 5: Module Status and click Check Data.
-	- Scroll to the bottom of the page and click Verify Incoming Data.
-- You should begin seeing information such as the following:
+	- Edit lines #1106 and #1806 by replacing the IP address with the IP address of your ELK machine.
+	- Save the file in  /etc/ansible/files/filebeat-config.yml.
+	- Creat a filebeat playbook and save at /etc/ansible/filebeat-playbookl.yml
+	- Run the playbook by running the command: ansible-playbook /etc/ansible/filebeat_playbook.yml
+	- After the playbook completes, follow the steps below to confirm that the ELK stack is receiving logs from your DVWA machines
+ 	- Navigate back to the Filebeat installation page on the ELK server GUI.
+		- On the same page, scroll to Step 5: Module Status and click Check Data.
+		- Scroll to the bottom of the page and click Verify Incoming Data.
+	- You should begin seeing information such as the following:
 
 <img src="https://github.com/pbottari/Cybersecurity-/blob/main/Diagrams/Filebeat1.png">
 
 
-Installing Metricbeat:
+- Installing Metricbeat:
 
-- Download the metribeat configuration template with the following command:
+	- Download the metribeat configuration template with the following command:
 curl https://gist.githubusercontent.com/slape/58541585cc1886d2e26cd8be557ce04c/raw/0ce2c7e744c54513616966affb5e9d96f5e12f73/metricbeat > /etc/ansible/files/metricbeat-config.yml
-- Edit lines #96 by replacing the IP address with the IP address of your ELK machine.
-- Save the file in  /etc/ansible/files/metricbeat-config.yml.
-- Creat a metric playbook and save at /etc/ansible/metricbeat-playbookl.yml
-- Run the playbook by running the command: ansible-playbook /etc/ansible/metricbeat_playbook.yml
-- After the playbook completes, follow the steps below to confirm that the ELK stack is receiving logs from your DVWA machines
-- Navigate back to the metricbeat installation page on the ELK server GUI.
-	- On the same page, scroll to Step 5: Module Status and click Check Data.
-	- Scroll to the bottom of the page and click Verify Incoming Data.
-- You should begin seeing information such as the following:
+	- Edit lines #96 by replacing the IP address with the IP address of your ELK machine.
+	- Save the file in  /etc/ansible/files/metricbeat-config.yml.
+	- Creat a metric playbook and save at /etc/ansible/metricbeat-playbookl.yml
+	- Run the playbook by running the command: ansible-playbook /etc/ansible/metricbeat_playbook.yml
+	- After the playbook completes, follow the steps below to confirm that the ELK stack is receiving logs from your DVWA machines
+	- Navigate back to the metricbeat installation page on the ELK server GUI.
+		- On the same page, scroll to Step 5: Module Status and click Check Data.
+		- Scroll to the bottom of the page and click Verify Incoming Data.
+	- You should begin seeing information such as the following:
 
 <img src="https://github.com/pbottari/Cybersecurity-/blob/main/Diagrams/metricbeat1.png">
 
