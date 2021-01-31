@@ -1,5 +1,5 @@
 # Cybersecurity-
-This repository show case the projects completed during the GWU Cybersecurity Bootcamp 
+This repository show case the projects completed during the GWU Cybersecurity Bootcamp.
 
 ## Automated ELK Stack Deployment
 
@@ -7,17 +7,19 @@ The files in this repository were used to configure the network depicted below.
 
 <img src="https://github.com/pbottari/Cybersecurity-/blob/main/Diagrams/Azure Cloud Security Diagram.png" width="1000">
 
-Make sure ansible is installed and configured prior to generate a live ELK deployment. 
+Make sure ansible is installed, configured and runing in the VMs prior to generate a live ELK deployment.  
 
 - [Ansible_Config](https://github.com/pbottari/Cybersecurity-/blob/main/Ansible/ansible.cfg)
-	- To configure the ansible.cfg file, uncomment the remote_user line and replace root with your admin username using this format: remote_user = user-name-for-web-VMs
+	- To configure the ansible.cfg file, uncomment the remote_user line and replace *root* with your admin username using the format: 
+		- remote_user = user-name-for-web-VMs
 	
 - [Host File](https://github.com/pbottari/Cybersecurity-/blob/main/Ansible/hosts)
-	- To the host file, uncomment the [webservers] header line and add the internal IP address under the [webservers] header with the python line ansible_python_interpreter=/usr/bin/python3 besides each IP.
+	- In the host file, uncomment the [webservers] header line, and add the internal IP address under the [webservers] header with the python line *ansible_python_interpreter=/usr/bin/python3* besides each IP, like:
+		- web-VM-IP-address>ansible_python_interpreter=/usr/bin/python3
 	
 - [Ansible -Playbook](https://github.com/pbottari/Cybersecurity-/blob/main/Ansible/pentest.yml)
 	- To configure a VM with the DVWA web app. 
-	- Run curl localhost/setup.php to test the connection.
+	- End the end of the configuration run *curl localhost/setup.php* to test the connection.
 	
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat. 
