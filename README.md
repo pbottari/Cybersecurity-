@@ -125,7 +125,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 		- Scroll to the bottom of the page and click Verify Incoming Data.
 	- You should begin seeing information such as the following:
 
-<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Diagrams/filebeat1.png">
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Diagrams/Filebeat1.png">
 
 - Installing Metricbeat:
 	- Download the metribeat configuration template with the following command:
