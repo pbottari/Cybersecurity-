@@ -112,12 +112,27 @@ In order to use the playbook, you will need to have an Ansible control node alre
 	`10.0.0.4 ansible_pythin_interpreter=/usr/bin/python3`  
 	- Run the playbook, and navigate to `http://[your_elk_server_ip]:5601/app/kibana` to check that the installation worked as expected.
 
+- Installing Filebeat:
+	- Download the Filebeat configuration template with the following command:
+ `curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/files/filebeat-config.yml`
+	- Edit lines #1106 and #1806 in the `filebeat-config.yml` by replacing the IP address with the IP address of your ELK machine.
+	- Save the file at `etc/ansible/files/filebeat-config.yml`.
+	- Creat a metric playbook and save at `etc/ansible/filebeat-playbookl.yml`
+	- Run the playbook by running the command:`ansible-playbook /etc/ansible/filebeat_playbook.yml`
+	- After the playbook completes, follow the steps below to confirm that the ELK stack is receiving logs from your DVWA machines
+		- Navigate back to the metricbeat installation page on the ELK server GUI.
+		- On the same page, scroll to Step 5: Module Status and click Check Data.
+		- Scroll to the bottom of the page and click Verify Incoming Data.
+	- You should begin seeing information such as the following:
+
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Diagrams/filebeat1.png">
+
 - Installing Metricbeat:
 	- Download the metribeat configuration template with the following command:
  `curl https://gist.githubusercontent.com/slape/58541585cc1886d2e26cd8be557ce04c/raw/0ce2c7e744c54513616966affb5e9d96f5e12f73/metricbeat > /etc/ansible/files/metricbeat-config.ymlansible-playbook`
-	- Edit lines #96 in the `metricbeat-config.yml`by replacing the IP address with the IP address of your ELK machine.
+	- Edit line #96 in the `metricbeat-config.yml`by replacing the IP address with the IP address of your ELK machine.
 	- Save the file in `etc/ansible/files/metricbeat-config.yml`.
-	- Creat a metric playbook and save at `etc/ansible/metricbeat-playbookl.yml`
+	- Creat a metric playbook and save at `etc/ansible/metricbeat-playbook.yml`
 	- Run the playbook by running the command:`ansible-playbook /etc/ansible/metricbeat_playbook.yml`
 	- After the playbook completes, follow the steps below to confirm that the ELK stack is receiving logs from your DVWA machines
 		- Navigate back to the metricbeat installation page on the ELK server GUI.
@@ -126,6 +141,3 @@ In order to use the playbook, you will need to have an Ansible control node alre
 	- You should begin seeing information such as the following:
 
 <img src="https://github.com/pbottari/Cybersecurity-/blob/main/Diagrams/metricbeat1.png">
-
-
-
