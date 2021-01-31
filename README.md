@@ -91,12 +91,13 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-Jump Box (10.0.0.5)
-Web-1    (10.1.0.4)
-Web-2    (10.1.0.6)
-Web-3    (10.1.0.7)
+- Jump Box (10.0.0.5)
+- Web-1    (10.1.0.4)
+- Web-2    (10.1.0.6)
+- Web-3    (10.1.0.7)
 
 We have installed the Filebeat and Metricbeat on the following machines: Web-1, Web-2, Web-3.
+
 These Beats allow us to collect the following information from each machine:
 
    - *Filebeat* collects elasticsearch log data, log evens and ship them to the monitoriung cluster. The recent logs are visible in Kibana on the monitoring page.
@@ -107,19 +108,19 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 - SSH into the control node and follow the steps below:
 	- Copy the `install_elk.yml` playbook file to the ansible directory `etc/ansible`
-	- Update the hosts file located at `etc/ansible` to include your new elk VM by adding the line `10.0.0.4 ansible_pythin_interpreter=/usr/bin/python3` under `[elk]` header. 
+	- Update the hosts file located at `etc/ansible` to include your new elk VM by adding the line below under the `[elk]` header.
+	`10.0.0.4 ansible_pythin_interpreter=/usr/bin/python3`  
 	- Run the playbook, and navigate to `http://[your_elk_server_ip]:5601/app/kibana` to check that the installation worked as expected.
 
 -Installing Filebeat:
-
-	- Download the filebeat configuration template with the following command: 
-curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/files/filebeat-config.yml
-	- Edit lines #1106 and #1806 by replacing the IP address with the IP address of your ELK machine.
-	- Save the file in  /etc/ansible/files/filebeat-config.yml.
-	- Creat a filebeat playbook and save at /etc/ansible/filebeat-playbookl.yml
-	- Run the playbook by running the command: ansible-playbook /etc/ansible/filebeat_playbook.yml
-	- After the playbook completes, follow the steps below to confirm that the ELK stack is receiving logs from your DVWA machines
- 	- Navigate back to the Filebeat installation page on the ELK server GUI.
+	- Download the filebeat configuration template with the following command:
+ `curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/files/filebeat-config.yml`
+	- Edit lines #1106 and #1806 in the `filebeat-config.yml` by replacing the IP address with the IP address of your ELK machine.
+	- Save the file at `etc/ansible/files/filebeat-config.yml`.
+	- Creat a filebeat playbook and save at `etc/ansible/filebeat-playbookl.yml`
+	- Run the playbook by executing the command:`ansible-playbook /etc/ansible/filebeat_playbook.yml`
+	- After the playbook finish running, follow the steps below to confirm that the ELK stack is receiving logs from your DVWA machines
+ 		- Navigate back to the Filebeat installation page on the ELK server GUI.
 		- On the same page, scroll to Step 5: Module Status and click Check Data.
 		- Scroll to the bottom of the page and click Verify Incoming Data.
 	- You should begin seeing information such as the following:
@@ -128,15 +129,14 @@ curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/r
 
 
 - Installing Metricbeat:
-
 	- Download the metribeat configuration template with the following command:
 curl https://gist.githubusercontent.com/slape/58541585cc1886d2e26cd8be557ce04c/raw/0ce2c7e744c54513616966affb5e9d96f5e12f73/metricbeat > /etc/ansible/files/metricbeat-config.yml
-	- Edit lines #96 by replacing the IP address with the IP address of your ELK machine.
-	- Save the file in  /etc/ansible/files/metricbeat-config.yml.
-	- Creat a metric playbook and save at /etc/ansible/metricbeat-playbookl.yml
-	- Run the playbook by running the command: ansible-playbook /etc/ansible/metricbeat_playbook.yml
+	- Edit lines #96 in the `metricbeat-config.yml`by replacing the IP address with the IP address of your ELK machine.
+	- Save the file in `etc/ansible/files/metricbeat-config.yml`.
+	- Creat a metric playbook and save at `etc/ansible/metricbeat-playbookl.yml`
+	- Run the playbook by running the command:`ansible-playbook /etc/ansible/metricbeat_playbook.yml`
 	- After the playbook completes, follow the steps below to confirm that the ELK stack is receiving logs from your DVWA machines
-	- Navigate back to the metricbeat installation page on the ELK server GUI.
+		- Navigate back to the metricbeat installation page on the ELK server GUI.
 		- On the same page, scroll to Step 5: Module Status and click Check Data.
 		- Scroll to the bottom of the page and click Verify Incoming Data.
 	- You should begin seeing information such as the following:
