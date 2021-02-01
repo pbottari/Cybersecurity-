@@ -1,4 +1,0 @@
-#!/bin/bash
-echo "Enter date"
-grep $1_Dealer_schedule 
-| grep -i $2 | awk '{print $5,$6}'
