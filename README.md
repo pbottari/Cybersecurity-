@@ -9,11 +9,11 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat. 
 
-  - [Install_Elk.yml](https://github.com/pbottari/Cybersecurity-/blob/main/Linux/install-elk.yml)
-  - [Filebeat-Config.yml](https://github.com/pbottari/Cybersecurity-/blob/main/Linux/filebeat-config.yml)
-  - [Metricbeat-Config.yml](https://github.com/pbottari/Cybersecurity-/blob/main/Linux/metricbeat-config.yml)
-  - [Filebeat-Playbook.yml](https://github.com/pbottari/Cybersecurity-/blob/main/Linux/filebeat-playbook.yml)
-  - [Metricbeat-Playbook.yml](https://github.com/pbottari/Cybersecurity-/blob/main/Linux/metricbeat-playbook.yml)
+  - [Install_Elk.yml](https://github.com/pbottari/Cybersecurity-/blob/main/Ansible/install-elk.yml)
+  - [Filebeat-Config.yml](https://github.com/pbottari/Cybersecurity-/blob/main/Ansible/filebeat-config.yml)
+  - [Metricbeat-Config.yml](https://github.com/pbottari/Cybersecurity-/blob/main/Ansible/metricbeat-config.yml)
+  - [Filebeat-Playbook.yml](https://github.com/pbottari/Cybersecurity-/blob/main/Ansible/filebeat-playbook.yml)
+  - [Metricbeat-Playbook.yml](https://github.com/pbottari/Cybersecurity-/blob/main/Ansible/metricbeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
