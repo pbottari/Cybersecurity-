@@ -129,6 +129,11 @@ The images also had information on the time the pictures were taken, and their l
 | 43401	        | 2012-07-08 12:49:25 EDT | IMG_0054.JPG | 38.89766667; -77.01966667                      | Near Verizon Centre	                            |	
 
 
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/89.png" width="300"> 
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/91.png" width="300">
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/93.png" width="300">
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/01.png" width="300">
+
 ## Evidence relating to defacement of museum art
 
 This sub-section provides details regarding the evidence found as it relates to the defacement of museum art. Evidences from /img_tracy_phone-2012-07-15-final.E01/vol_vol5/mobile/Library/Mail/ are described below.
@@ -184,6 +189,9 @@ The outline of the key events in the order they occurred can be found in  Append
 
 ## Appendix A: Correspondence Evidence
 This subsection will provide an amalgamation of the email and SMS corresponce evidence. The emails were found at  /img_tracy-phone-2012-07-15-final.E01//vol5/mobile/Library/Mail/POP/INBOX.mbox/Messages and the text messages at SMS.db, and analyzed with DB Browser.
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/email1.png" width="1000">
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/email2.png" width="1000">
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/text1.png" width="1000">
 
 ### Master Timeline of NGDC" Emails and Attachments
 To simplify, not all emails and text messages found will be shown here. 
@@ -267,7 +275,7 @@ To simplify, not all emails and text messages found will be shown here.
 ## Appendix B: WiFi and GPS Location Information
 
 WiFi and GPS location information were found at /img_tracy-phone-2012-07-15-final.E01/vol_vol5/root/Library/Caches/location/consolidated.db
-
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/wifi1.png" width="1000">
 
 ## Some examples of what can be extracted from the GPS coordinates
 
@@ -275,19 +283,23 @@ WiFi and GPS location information were found at /img_tracy-phone-2012-07-15-fina
   - Timestamp: 2012-06-13 7:04:04 PM 	
   - Header Information: 38°52'52.8"N 77°06'50.4"W
   - Body: 900 N Taylor St, Arlington, VA 22203 68:7f:74:94:aa:ed 3.61307043743548E8 38.88133615 -77.11399537 58.0 132.0 37.0 -1.0 -1.0 50
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/email1.png" width="1000">
  
 - Artifact # 11
   - Timestamp: 2012-07-05 4:32:46 PM 	
   - Header Information: 38°52'56.0"N 77°06'54.0"W
   - Body: 1000 N Vermont St, Arlington, VA 22201 310 410 7985 159922035 3.63198766054534E8 38.8822233 -77.11500936 2341.0 0.0 -1.0 -1.0 -1.0 50
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/gps2.png" width="1000">
 
 - Artifact # 12
   - Timestamp: 2012-07-05 4:32:48 PM		
   - Header Information: 38°52'49.2"N 77°06'51.5"W
   - Body: 900 N Glebe Rd, Arlington, VA 22203 0:b:6c:bb:b0:5 3.63198767554628E8 38.88033336 -77.11429077 48.0 112.0 19.0 -1.0 -1.0 50
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/gps3.png" width="1000">
 
 - Artifact # 13
   - Timestamp: 2012-07-10 4:31:12 PM		
   - Header Information: 38°50'56.3"N 77°04'54.2"W
   - Body: 2400 S Glebe Rd, Arlington, VA 22206 c:d5:2:af:6:da 3.63630672185595E8 38.84897792 -77.08172118 56.0 49.0 16.0 -1.0 -1.0 50
+ <img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/gps4.png" width="1000">
  
