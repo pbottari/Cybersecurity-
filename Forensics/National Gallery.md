@@ -189,81 +189,67 @@ This subsection will provide an amalgamation of the email and SMS corresponce ev
 To simplify, not all emails and text messages found will be shown here. 
 
 - Artifact #: 1
-Timestamp: Tue, 6/19/2012 14:38:59              
-Type: email
-Header Information: 
-From: perrypatsum@yahoo.com (Perry Patsum) 
-To: coralbluetwo@hotmail.com (Coral Bluetwo) 
-Key Information:
-Subject: Crazy Dave by the VMs	Pat (Perry) emails Tracy (Coral) with instructions to install a Virtual Machine hidden in an audio file: crazydave1.mp3	
-Evidence Location: ~/INBOX.mbox/Message/3896FC6F
+  - Timestamp: Tue, 6/19/2012 14:38:59              
+  - Type: email
+  - Header Information: From: perrypatsum@yahoo.com (Perry Patsum) To: coralbluetwo@hotmail.com (Coral Bluetwo) 
+  - Key Information: Subject: Crazy Dave by the VMs - Pat (Perry) emails Tracy (Coral) with instructions to install a Virtual Machine hidden in an audio file: crazydave1.mp3	
+  - Evidence Location: ~/INBOX.mbox/Message/3896FC6F
 
 - Artifact #: 2
-Timestamp: Thu, 7/5/2012 12:58:41           
-Type: email
-Header Information: 
-From: woina.honril@m57.biz
-To:  coralbluetwo@hotmail.com (Coral Bluetwo)
-Key Information:
-Subject: Busy	Message body: I didn’t.
-Evidence Location: ~/INBOX.mbox/Message/F3F4EB95
+  - Timestamp: Thu, 7/5/2012 12:58:41           
+  - Type: email
+  - Header Information: From: woina.honril@m57.biz To:  coralbluetwo@hotmail.com (Coral Bluetwo)
+  - Key Information: Subject: Busy - Message body: I didn’t.
+  - Evidence Location: ~/INBOX.mbox/Message/F3F4EB95
 
 - Artifact #: 3
-Timestamp: Mon; 07/09/2012, 07:47:53           
-Type: email
-Header Information: 
-From: tracysumtwelve@gmail.com (Tracy Sumtwelve)
-To: coralbluetwo@hotmail.com (Coral Bluetwo) 
-Key Information:
-Subject: things	Documents.zip
-Evidence Location: ~/INBOX.mbox/Message/8A3BD06F
+  - Timestamp: Mon; 07/09/2012, 07:47:53           
+  - Type: email
+  - Header Information: From: tracysumtwelve@gmail.com (Tracy Sumtwelve) To: coralbluetwo@hotmail.com (Coral Bluetwo) 
+  -Key Information: Subject: things - Attachment: Documents.zip
+  - Evidence Location: ~/INBOX.mbox/Message/8A3BD06F
 
 - Artifact #: 4
-Timestamp: Tue; 07/10/2012 08:24:58           
-Type: email
-Header Information: 
-From: patsumtwelve@gmail.com (Pat TeesumTwelve) 
-To: coralbluetwo@hotmail.com (Coral Bluetwo)
-Key Information:
-Subject: fwd: can’t pass up
-Forward emails from King Kthings (throne1966@hotmail.com) about what they need to make things happen for the heist at the national gallery.
-Attachment: needs.txt is a pdf file which was saved with a wrong extension.
-Evidence Location: ~/INBOX.mbox/Message/9F0508B8
+  - Timestamp: Tue; 07/10/2012 08:24:58           
+  - Type: email
+  - Header Information: From: patsumtwelve@gmail.com (Pat TeesumTwelve) To: coralbluetwo@hotmail.com (Coral Bluetwo)
+  - Key Information: Subject: fwd: can’t pass up - Forward emails from King Kthings (throne1966@hotmail.com) about what they need to make things happen for the heist at the national gallery. Attachment: needs.txt is a pdf file which was saved with a wrong extension.
+  - Evidence Location: ~/INBOX.mbox/Message/9F0508B8
 
 - Artifact #: 5
-Timestamp: 6/12/2012 21:25:04       
-Type: SMS
-Header Information:  From Pat to Tracy
-Key Information: Pat asksTracy about her plans for the weekend	 
-Evidence Location: SMS.db
+  - Timestamp: 6/12/2012 21:25:04       
+  - Type: SMS
+  - Header Information:  From Pat to Tracy
+  - Key Information: Pat asksTracy about her plans for the weekend	 
+  - Evidence Location: SMS.db
 
 - Artifact #: 6
-Timestamp: 6/13/2012 17:30:28       
-Type: SMS
-Header Information:  From Terry to Tracy
-Key Information: I'm going out with dad after school for pizza! Thought I'd let you know if you planned to cook.	 
-Evidence Location: SMS.db
+  - Timestamp: 6/13/2012 17:30:28       
+  - Type: SMS
+  - Header Information:  From Terry to Tracy
+  - Key Information: I'm going out with dad after school for pizza! Thought I'd let you know if you planned to cook.	 
+  - Evidence Location: SMS.db
 
 - Artifact #: 7
-Timestamp: 7/10/2012 15:26:19       
-Type: SMS
-Header Information:  From Pat to Tracy
-Key Information: Pat messages Tracy telling her about the email and informing that the attachment needs to be changed to pdf. He asks Tracy to tell this information to Coral.
-Evidence Location: SMS.db
+  - Timestamp: 7/10/2012 15:26:19       
+  - Type: SMS
+  - Header Information:  From Pat to Tracy
+  - Key Information: Pat messages Tracy telling her about the email and informing that the attachment needs to be changed to pdf. He asks Tracy to tell this information to Coral.
+  - Evidence Location: SMS.db
 
 - Artifact #: 8
-Timestamp: 7/10/2012 15:58:04       
-Type: SMS
-Header Information:  From Tracy to Pat
-Key Information:Tracy acknowledges the email and message.		 
-Evidence Location: SMS.db
+  - Timestamp: 7/10/2012 15:58:04       
+  - Type: SMS
+  - Header Information:  From Tracy to Pat
+  - Key Information:Tracy acknowledges the email and message.		 
+  - Evidence Location: SMS.db
 
 - Artifact #: 9
-Timestamp: 7/11/2012 12:41:45       
-Type: SMS
-Header Information:  From Carry to Tracy
-Key Information: Carry messages Tracy informing that she is almost there (National Gallery)		 
-Evidence Location: SMS.db
+  - Timestamp: 7/11/2012 12:41:45       
+  - Type: SMS
+  - Header Information:  From Carry to Tracy
+  - Key Information: Carry messages Tracy informing that she is almost there (National Gallery)		 
+  - Evidence Location: SMS.db
 
 ## Some of the timestamps:
 
@@ -282,50 +268,26 @@ Evidence Location: SMS.db
 
 WiFi and GPS location information were found at /img_tracy-phone-2012-07-15-final.E01/vol_vol5/root/Library/Caches/location/consolidated.db
 
+
+## Some examples of what can be extracted from the GPS coordinates
+
+- Artifact # 10
+  - Timestamp: 2012-06-13 7:04:04 PM 	
+  - Header Information: 38°52'52.8"N 77°06'50.4"W
+  - Body: 900 N Taylor St, Arlington, VA 22203 68:7f:74:94:aa:ed 3.61307043743548E8 38.88133615 -77.11399537 58.0 132.0 37.0 -1.0 -1.0 50
  
+- Artifact # 11
+  - Timestamp: 2012-07-05 4:32:46 PM 	
+  - Header Information: 38°52'56.0"N 77°06'54.0"W
+  - Body: 1000 N Vermont St, Arlington, VA 22201 310 410 7985 159922035 3.63198766054534E8 38.8822233 -77.11500936 2341.0 0.0 -1.0 -1.0 -1.0 50
 
+- Artifact # 12
+  - Timestamp: 2012-07-05 4:32:48 PM		
+  - Header Information: 38°52'49.2"N 77°06'51.5"W
+  - Body: 900 N Glebe Rd, Arlington, VA 22203 0:b:6c:bb:b0:5 3.63198767554628E8 38.88033336 -77.11429077 48.0 112.0 19.0 -1.0 -1.0 50
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Some examples of what can be extracted from the GPS coordinates
-
-        	Location Information
-Artifact #	Timestamp	Header Information	Body
-27	2012-06-13 7:04:04 PM	38°52'52.8"N 77°06'50.4"W
- 	900 N Taylor St, Arlington, VA 22203 68:7f:74:94:aa:ed 3.61307043743548E8 38.88133615 -77.11399537 
-58.0 132.0 37.0 -1.0 -1.0 50
- 
-28	2012-07-05 4:32:46 PM	38°52'56.0"N 77°06'54.0"W
- 	1000 N Vermont St, Arlington, VA 22201
-310 410 7985 159922035 3.63198766054534E8                   38.8822233 -77.11500936
- 2341.0 0.0 -1.0 -1.0 -1.0 50
- 
-29	2012-07-05 4:32:48 PM	38°52'49.2"N 77°06'51.5"W
- 
- 	900 N Glebe Rd, Arlington, VA 22203
-0:b:6c:bb:b0:5 3.63198767554628E8 38.88033336 -77.11429077 
-48.0 112.0 19.0 -1.0 -1.0 50
- 
-30	2012-07-10 4:31:12 PM	38°50'56.3"N 77°04'54.2"W
- 
-	2400 S Glebe Rd, Arlington, VA 22206 
-c:d5:2:af:6:da 3.63630672185595E8 38.84897792 -77.08172118 
-56.0 49.0 16.0 -1.0 -1.0 50
+- Artifact # 13
+  - Timestamp: 2012-07-10 4:31:12 PM		
+  - Header Information: 38°50'56.3"N 77°04'54.2"W
+  - Body: 2400 S Glebe Rd, Arlington, VA 22206 c:d5:2:af:6:da 3.63630672185595E8 38.84897792 -77.08172118 56.0 49.0 16.0 -1.0 -1.0 50
  
