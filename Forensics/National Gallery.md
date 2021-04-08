@@ -55,80 +55,75 @@ The following tools were used in this investigation:
  
 ### Details of Tracy’s iPhone
 
-Name	Findings	Location in iPhone image file
-Model	Iphone 1, 2 (iPhone 3G)	mobile/Library/Logs/AppleSupport/general.log
-Host Name	Tracy Sumtwelve’s iPhone	com.apple.mobilegestalt.plist
-OS Version	Iphone OS 4.2.1 (8C148)	mobile/Library/Logs/AppleSupport/general.log
-Install Time	6/6/2012 12:03:27 -0700	mobile/Library/Logs/AppleSupport/general.log
-User Email	tracysumtwelve@gmail.com	vol5/mobile/Library/Mail
-Phone Number	703-340-9661	/logs/lockdownd.log.1
-Serial Number	86004482Y7H	mobile/Library/Logs/AppleSupport/general.log
-ICCID	89014103255195342366	/logs/lockdown.log.1
-IMEI	012021003735398	root/Library/Lockdown/activation_records/wildcard_record.plist
-Hashes
-MD5 Hash	34c4888f095dc3241330462923f6fea5
-SHA256 Hash	71aed05a86a753dec4ef4033ed7f52d6577ccb534ca0d1e83ffd27683e621607
+| Name         | Findings                 | Location in Phone Image File                                   |
+|--------------|--------------------------|----------------------------------------------------------------|
+| Model        | Iphone 1,2 (3G)          | mobile/Library/Logs/AppleSupport/general.log                   |
+| OS Version   | Iphone OS 4.2.1 (8C148)  | mobile/Library/Logs/AppleSupport/general.log                   |
+| Host Name    | Tracy Sumtwelve’s iPhone | com.apple.mobilegestalt.plist                                  |
+| Install Time | 6/6/2012 12:03:27        | mobile/Library/Logs/AppleSupport/general.log                   |
+| User Email   | tracysumtwelve@gmail.com | vol5/mobile/Library/Mail                                       |
+| Phone Number | 703-340-9661             | /logs/lockdownd.log.1                                          |
+| Serial Number| 86004482Y7H	          | mobile/Library/Logs/AppleSupport/general.log                   |
+| ICCID	       | 89014103255195342366	  | /logs/lockdown.log.1                                           |
+| IMEI	       | 012021003735398	  | root/Library/Lockdown/activation_records/wildcard_record.plist |
 
-Evidence to Establish Personas
+
+| Hash Type | Hash                                                              |
+|-----------|-------------------------------------------------------------------|
+| MD5       | 34c4888f095dc3241330462923f6fea5                                  |
+| SHA256    | 71aed05a86a753dec4ef4033ed7f52d6577ccb534ca0d1e83ffd27683e621607  |
+
+
+## Evidence to Establish Personas
 
 This section establishes aliases, phone numbers, emails addresses associated with each person, and relationships between each individual. 
 
-●	Tracy:
-○	Alias: 			Coral Bluetwo 
-○	Phone Number: 	(703) 340-9961
-○	Personal Email:	tracysumtwelve@gmail.com
-coralbluetwo@hotmail.com  
-○	Work Email: 		tracy.sumtwelve@nationalgallerydc.org 
-○	Relationship:		Accused
+- Tracy:
+  - Alias: Coral Bluetwo 
+  - Phone Number: (703) 340-9961
+  - Personal Emails: tracysumtwelve@gmail.com and coralbluetwo@hotmail.com  
+  - Work Email: tracy.sumtwelve@nationalgallerydc.org 
+  - Relationship:	Accused
 
-●	Pat: 
-○	Alias:			Perry Patsum
-○	Phone Number: 	571-308-3236
-○	Email: 			perrypatsum@yahoo.com 
-patsumtwelve@gmail.com  
-○	Relationship:	Police officer in the D.C. Enforcers Bureau and Tracy's brother. 
-
-●	Terry:
-○	Phone Number: 703-829-6071
-○	Email: N/A
-○	Relationship: Tracy and Joe’s daughter. Not involved in the scheme.
-
-●	Joe: 
-○	Phone Number: N/A
-○	Email: joe.sum.twelve@gmail.com 
-○	Relationship:  Tracy’s soon to be ex-husband. Not involved in the scheme.
-
-●	Carry:
-○	Phone Number: 202-725-2124
-○	Email: carrysum2012@yahoo.com 
-○	Relationship: Defacer, Krasnovian supporter who shares family ties with Alex. 
-
-●	King:
-	Phone Number:
-	Email: throne1966@hotmail.com 
-	Relationship: Pat’s “helping hand” criminal friend.
+- Pat: 
+  - Alias: Perry Patsum
+  - Phone Number: 571-308-3236
+  - Email: perrypatsum@yahoo.com and patsumtwelve@gmail.com  
+  - Relationship: Police officer in the D.C. Enforcers Bureau and Tracy's brother. 
+- Terry:
+  - Phone Number: 703-829-6071
+  - Email: N/A
+  - Relationship: Tracy and Joe’s daughter. Not involved in the scheme.
+- Joe: 
+  - Phone Number: N/A
+  -Email: joe.sum.twelve@gmail.com 
+  - Relationship:  Tracy’s soon to be ex-husband. Not involved in the scheme.
+- Carry:
+  - Phone Number: 202-725-2124
+  - Email: carrysum2012@yahoo.com 
+  -Relationship: Defacer, Krasnovian supporter who shares family ties with Alex. 
+- King:
+  - Phone Number:
+  - Email: throne1966@hotmail.com 
+  - Relationship: Pat’s “helping hand” criminal friend.
 	
-
 Through the analysis of Tracy’s emails and text messages, Digitech Inc. found evidence (exchanged email between Pat, his friend King, and Tracy asking for help in a conspiracy heist at the National Gallery planned for July 20th, 2012) indicating the involvement of Tracy, Pat and King. 
 
 Text messages from Carry to Tracy  asking about the flashmob and from Pat to Tracy saying that the attachment needed to be changed to pdf.  The attachment was needs.txt found in the emails exchanged mentioned above, and it contained a list of the things needed by King to pursue the heist. 
 
 Evidence is shown in Appendix A.
-Evidence relating to theft of valuable stamps
+
+## Evidence relating to theft of valuable stamps
 This sub-section provides details regarding the evidence found as it relates to the theft of valuable stamps. 
 
 Images related to the theft of valuable staples from the National Gallery was found on Tracy’s iphone at /img_tracy-phone-2012-07-15-final.E01/vol_vol5/mobile/Media/DCIM/100APPLE/.
 
 The images also had information on the time the pictures were taken, and their latitude, longitude, and altitude coordinates, which placed them at or near the National Gallery.  
 
-
-
-Photographic Evidence of Stamps
-Artifact #
-(Internal ID)	Created Time	Filename	Latitude, Longitude and Altitude	Image
-43389	2012-07-08 12:37:38 EDT	IMG_0048.JPG	38.890833333333
--77.022166666666
-52.04618473
+### Photographic Evidence of Stamps                                                                                                    
+|Artifact #     | Created Time            | Filename     | Latitude, Longitude and Altitude               | Image                    | 
+|(Internal ID)	|                         |              |                                                |                          | 
+| 43389	        | 2012-07-08 12:37:38 EDT | IMG_0048.JPG | 38.890833333333; -77.022166666666; 52.04618473 |                          |
 
 National Gallery Entrance
 
