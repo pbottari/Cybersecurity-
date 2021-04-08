@@ -130,9 +130,6 @@ The images also had information on the time the pictures were taken, and their l
 
 
 <img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/89.png" width="300"> 
-<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/91.png" width="300"> 
-<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/93.png" width="300"> 
-<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/01.png" width="300"> 
 
 ## Evidence relating to defacement of museum art
 
