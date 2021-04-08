@@ -130,9 +130,9 @@ The images also had information on the time the pictures were taken, and their l
 
 
 <img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/89.png" width="300"> 
-<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/91.png" width="300">
-<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/93.png" width="300">
-<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/01.png" width="300">
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/91.png" width="300"> 
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/93.png" width="300"> 
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/01.png" width="300"> 
 
 ## Evidence relating to defacement of museum art
 
@@ -283,23 +283,26 @@ WiFi and GPS location information were found at /img_tracy-phone-2012-07-15-fina
   - Timestamp: 2012-06-13 7:04:04 PM 	
   - Header Information: 38°52'52.8"N 77°06'50.4"W
   - Body: 900 N Taylor St, Arlington, VA 22203 68:7f:74:94:aa:ed 3.61307043743548E8 38.88133615 -77.11399537 58.0 132.0 37.0 -1.0 -1.0 50
-<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/email1.png" width="1000">
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/gps1.png" width="800">
+
  
 - Artifact # 11
   - Timestamp: 2012-07-05 4:32:46 PM 	
   - Header Information: 38°52'56.0"N 77°06'54.0"W
   - Body: 1000 N Vermont St, Arlington, VA 22201 310 410 7985 159922035 3.63198766054534E8 38.8822233 -77.11500936 2341.0 0.0 -1.0 -1.0 -1.0 50
-<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/gps2.png" width="1000">
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/gps2.png" width="800">
+
 
 - Artifact # 12
   - Timestamp: 2012-07-05 4:32:48 PM		
   - Header Information: 38°52'49.2"N 77°06'51.5"W
   - Body: 900 N Glebe Rd, Arlington, VA 22203 0:b:6c:bb:b0:5 3.63198767554628E8 38.88033336 -77.11429077 48.0 112.0 19.0 -1.0 -1.0 50
-<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/gps3.png" width="1000">
+<img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/gps3.png" width="800">
+
 
 - Artifact # 13
   - Timestamp: 2012-07-10 4:31:12 PM		
   - Header Information: 38°50'56.3"N 77°04'54.2"W
   - Body: 2400 S Glebe Rd, Arlington, VA 22206 c:d5:2:af:6:da 3.63630672185595E8 38.84897792 -77.08172118 56.0 49.0 16.0 -1.0 -1.0 50
- <img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/gps4.png" width="1000">
+ <img src="https://github.com/pbottari/Cybersecurity-/blob/main/Forensics/Images/gps4.png" width="800">
  
