@@ -185,112 +185,102 @@ The outline of the key events in the order they occurred can be found in  Append
 ## Appendix A: Correspondence Evidence
 This subsection will provide an amalgamation of the email and SMS corresponce evidence. The emails were found at  /img_tracy-phone-2012-07-15-final.E01//vol5/mobile/Library/Mail/POP/INBOX.mbox/Messages and the text messages at SMS.db, and analyzed with DB Browser.
 
-Master Timeline of NGDC
-Emails and Attachments
-Artifact #	Timestamp	Header Information	Key Information 	Evidence Location
-1	Tue, 6/19/2012 14:38:59	From: Perry Patsum: perrypatsum@yahoo.com
-To: Coral Bluetwo: coralbluetwo@hotmail.com
+### Master Timeline of NGDC" Emails and Attachments
+To simplify, not all emails and text messages found will be shown here. 
 
-Subject: Crazy Dave by the VMs	Pat (Perry) emails Tracy (Coral) with instructions to install a Virtual Machine hidden in an audio file: crazydave1.mp3	~/INBOX.mbox/Message/3896FC6F
-email
-2	Thu
-7/5/2012 12:58:41	From: woina.honril@m57.biz
-To: Coral Bluetwo: coralbluetwo@hotmail.com
+- Artifact #: 1
+Timestamp: Tue, 6/19/2012 14:38:59              
+Type: email
+Header Information: 
+From: perrypatsum@yahoo.com (Perry Patsum) 
+To: coralbluetwo@hotmail.com (Coral Bluetwo) 
+Key Information:
+Subject: Crazy Dave by the VMs	Pat (Perry) emails Tracy (Coral) with instructions to install a Virtual Machine hidden in an audio file: crazydave1.mp3	
+Evidence Location: ~/INBOX.mbox/Message/3896FC6F
+
+- Artifact #: 2
+Timestamp: Thu, 7/5/2012 12:58:41           
+Type: email
+Header Information: 
+From: woina.honril@m57.biz
+To:  coralbluetwo@hotmail.com (Coral Bluetwo)
+Key Information:
 Subject: Busy	Message body: I didn’t.
-	~/INBOX.mbox/Message/F3F4EB95 
-email
-3	Mon 
-07/09/ 2012
-07:47:53	From: Tracy Sumtwelve: tracysumtwelve@gmail.com
-To: Coral Bluetwo: coralbluetwo@hotmail.com
+Evidence Location: ~/INBOX.mbox/Message/F3F4EB95
+
+- Artifact #: 3
+Timestamp: Mon; 07/09/2012, 07:47:53           
+Type: email
+Header Information: 
+From: tracysumtwelve@gmail.com (Tracy Sumtwelve)
+To: coralbluetwo@hotmail.com (Coral Bluetwo) 
+Key Information:
 Subject: things	Documents.zip
-Couldn’t open, requires password	~/INBOX.mbox/Message/8A3BD06F
-email
-4	Tue
-07/10/2012 08:24:58	From: Pat TeesumTwelve: patsumtwelve@gmail.com
-To: Coral Bluetwo: coralbluetwo@hotmail.com
+Evidence Location: ~/INBOX.mbox/Message/8A3BD06F
+
+- Artifact #: 4
+Timestamp: Tue; 07/10/2012 08:24:58           
+Type: email
+Header Information: 
+From: patsumtwelve@gmail.com (Pat TeesumTwelve) 
+To: coralbluetwo@hotmail.com (Coral Bluetwo)
+Key Information:
 Subject: fwd: can’t pass up
-Emails on forward emails: King Kthings (throne1966@hotmail.com)
-	Forwards emails about what they need to make things happen for the heist at the national gallery.
+Forward emails from King Kthings (throne1966@hotmail.com) about what they need to make things happen for the heist at the national gallery.
+Attachment: needs.txt is a pdf file which was saved with a wrong extension.
+Evidence Location: ~/INBOX.mbox/Message/9F0508B8
 
-Attachment: needs.txt
+- Artifact #: 5
+Timestamp: 6/12/2012 21:25:04       
+Type: SMS
+Header Information:  From Pat to Tracy
+Key Information: Pat asksTracy about her plans for the weekend	 
+Evidence Location: SMS.db
 
-pdf file which was saved with a wrong extension.	~/INBOX.mbox/Message/9F0508B8
-email
-Text Messages
-5	6/12/2012 21:25:04	From: Pat 
-To: Tracy	Pat asksTracy about her plans for the weekend	SMS.db
-6	6/13/2012 17:30:28	From: Terry 
-To: Tracy	I'm going out with dad after school for pizza! Thought I'd let you know if you planned to cook. 	SMS.db
-7	6/13/2012 18:30:38	From: Tracy 
-To: Pat	Tracy replies to Pat saying that she has no big plans and asks about his plans.	SMS.db
-8	6/13/2012 18:33:46	From: Tracy 
-To: Terry	Ok, sounds good.	SMS.db
-9	7/3/2012 14:04:32	From: Terry 
-To: Tracy	Terry replies back saying that she doesn’t want to switch schools and would rather stay with her dad and continue at Prufrock	SMS.db
-10	7/5/2012 18:18:23	From: Carry 
-To: Tracy	Carry sets up the time and location as 1pm at Bubba’s grill for meeting with Tracy	SMS.db
-11	7/5/2012 18:20:26	From: Tracy 
-To: Carry	Tracy confirms the meeting time and location	SMS.db
-12	7/6/2012 15:02:19	From: Tracy 
-To: Carry	Tracy asks Pat to give her a call	SMS.db
-13	7/6/2012 15:08:37	From: Pat 
-To: Tracy	Pat says he is busy and suggests calling later	SMS.db
-14	7/6/2012 15:11:54	From: Tracy 
-To: Carry	Tracy says its important and insists that pat call her soon	SMS.db
-15	7/6/2012 15:13:31	From: Pat 
-To: Tracy	Pat says he will call in 5 min	SMS.db
-16	7/6/2012 16:27:16	From: Carry 
-To: Tracy	Carry messages saying she has a table inside	SMS.db
-17	7/6/2012 16:27:50	From: Tracy 
-To: Carry	Tracy replies back saying that she will be there.	SMS.db
-18	7/10/2012 15:26:19	From: Pat 
-To: Tracy	Pat messages Tracy telling her about the email and informing that the attachment needs to be changed to pdf. He asks Tracy to tell this information to Coral.	SMS.db
-19	7/10/2012 15:58:04	From: Tracy 
-To: Pat	Tracy acknowledges the email and message.	SMS.db
-20	7/10/2012 17:18:38	From: Tracy 
-To: Terry	Tracy messages Terry for Lunch	SMS.db
-21	7/10/2012 18:19:24	From: Tracy 
-To: Terry	Tracy messages Terry that she is back at work.	SMS.db
-22	7/10/2012 18:58:24	From: Terry 
-To: Tracy	Terry messages Tracy saying she is busy and suggests meeting up over the weekend if her dad isn’t busy.	SMS.db
-23	7/11/2012 12:41:45	From: Carry 
-To: Tracy	Carry messages Tracy informing that she is almost there (National Gallery)	SMS.db
-24	7/11/2012 12:49:08	From: Tracy 
-To: Carry	Tracy replies to Carry asking her to meet out front. She says that she will take the tablet in.	SMS.db
-25	2012-07-12
-   13:06:45	From: Terry 
-To: Tracy	Terry asks Tracy how the flashmob is going.	SMS.db
-26	7/13/2012 13:02:10	From: Terry 
-To: Tracy	I really want to go to Dad's this weekend. He said he'll take me shopping for school	SMS.db
- 
- 
+- Artifact #: 6
+Timestamp: 6/13/2012 17:30:28       
+Type: SMS
+Header Information:  From Terry to Tracy
+Key Information: I'm going out with dad after school for pizza! Thought I'd let you know if you planned to cook.	 
+Evidence Location: SMS.db
 
- 
+- Artifact #: 7
+Timestamp: 7/10/2012 15:26:19       
+Type: SMS
+Header Information:  From Pat to Tracy
+Key Information: Pat messages Tracy telling her about the email and informing that the attachment needs to be changed to pdf. He asks Tracy to tell this information to Coral.
+Evidence Location: SMS.db
 
-Some of the timestamps:
+- Artifact #: 8
+Timestamp: 7/10/2012 15:58:04       
+Type: SMS
+Header Information:  From Tracy to Pat
+Key Information:Tracy acknowledges the email and message.		 
+Evidence Location: SMS.db
 
-Cyberchef	GMT	EDT
-1341541303	2012-07-06 02:38:23	2012-07-05 22:38:23
-1341542426	2012-07-06 02:40:26	2012-07-05 22:40:26
-1341592036	2012-07-06 16:27:16	2012-07-06 12:27:16
-1341592070	2012-07-06 16:27:50	2012-07-06 12:27:50
-1341933979	2012-07-10 15:26:19 	2012-07-10 11:26:19 
-1342010505	2012-07-11 12:41:45	2012-07-11 08:41:45
-1342010948	2012-07-11 12:49:08	2012-07-11 08:49:08
-1342112805	2012-07-12 17:06:45	2012-07-12 13:06:45
+- Artifact #: 9
+Timestamp: 7/11/2012 12:41:45       
+Type: SMS
+Header Information:  From Carry to Tracy
+Key Information: Carry messages Tracy informing that she is almost there (National Gallery)		 
+Evidence Location: SMS.db
 
-CyberChef	GMT	EDT
-1339531490	2012-06-12 20:04:50	2012-06-12 16:04:50
-1339534334	2012-06-12 20:52:14	2012-06-12 16:52:14
-1339604953	2012-06-13 16:29:13	2012-06-13 12:29:13
-1340386466	2012-06-22 17:34:26	2012-06-22 13:34:26
-1341587930	2012-07-06 15:18:50	2012-07-06 11:18:50
+## Some of the timestamps:
 
-Appendix B: WiFi and GPS Location Information
+| Cyberchef  | GMT                 | EDT                 |
+|------------|---------------------|---------------------|
+| 1341541303 | 2012-07-06 02:38:23 | 2012-07-05 22:38:23 |
+| 1341542426 | 2012-07-06 02:40:26 | 2012-07-05 22:40:26 |
+| 1341592036 | 2012-07-06 16:27:16 | 2012-07-06 12:27:16 |
+| 1341592070 | 2012-07-06 16:27:50 | 2012-07-06 12:27:50 |
+| 1341933979 | 2012-07-10 15:26:19 | 2012-07-10 11:26:19 |
+| 1342010505 | 2012-07-11 12:41:45 | 2012-07-11 08:41:45 |
+| 1342010948 | 2012-07-11 12:49:08 | 2012-07-11 08:49:08 |
+| 1342112805 | 2012-07-12 17:06:45 | 2012-07-12 13:06:45 |
 
-WiFi and GPS location information were found at 
-/img_tracy-phone-2012-07-15-final.E01/vol_vol5/root/Library/Caches/location/consolidated.db
+## Appendix B: WiFi and GPS Location Information
+
+WiFi and GPS location information were found at /img_tracy-phone-2012-07-15-final.E01/vol_vol5/root/Library/Caches/location/consolidated.db
 
  
 
