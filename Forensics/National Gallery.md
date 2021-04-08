@@ -122,7 +122,6 @@ The images also had information on the time the pictures were taken, and their l
 
 ### Photographic Evidence of Stamps                                                                                                    
 |Artifact #     | Created Time            | Filename     | Latitude, Longitude and Altitude               | Image                                           | 
-|(Internal ID)	|                         |              |                                                |                                                 | 
 |---------------|-------------------------|--------------|------------------------------------------------|-------------------------------------------------|
 | 43389	        | 2012-07-08 12:37:38 EDT | IMG_0048.JPG | 38.890833333333; -77.022166666666; 52.04618473 | National Gallery Entrance                       |
 | 43391	        | 2012-07-08 12:41:41 EDT | IMG_0049.JPG | 38.89166667; -77.0235; 78.04526749             | Near National Gallery Sculpture Garden          |	
@@ -132,20 +131,18 @@ The images also had information on the time the pictures were taken, and their l
 
 ## Evidence relating to defacement of museum art
 
-This sub-section provides details regarding the evidence found as it relates to the defacement of museum art. 
-
-- Evidences from /img_tracy_phone-2012-07-15-final.E01/vol_vol5/mobile/Library/Mail/
+This sub-section provides details regarding the evidence found as it relates to the defacement of museum art. Evidences from /img_tracy_phone-2012-07-15-final.E01/vol_vol5/mobile/Library/Mail/ are described below.
 
 - Evidence 1
   - Email 9F0508B8-04FB-A7F0-3E23B0E7C59B.emlx received on 10th July 2012 at 08:24:57 PDT.
   - The email was from Pat <patsumtwelve@gmail.com> to Coral <coralbluetwelve@hotmail.com> with the subject “Fwd: can’t pass up”. 
 - Evidence 2
-  - Attachment needs.txt in the email chain 9F0508B8-04FB-A7F0-3E23B0E7C59B.emlx   forwarded by Pat <patsumtwelve@gmail.com> to Coral <coralbluetwelve@hotmail.com> with the subject “Fwd: can’t pass up” on 0th July 2012 at 08:24:57 PDT.
+  - Attachment needs.txt in the email chain 9F0508B8-04FB-A7F0-3E23B0E7C59B.emlx forwarded by Pat <patsumtwelve@gmail.com> to Coral <coralbluetwelve@hotmail.com> with the subject “Fwd: can’t pass up” on 0th July 2012 at 08:24:57 PDT.
   - Evidence from SMS.db
 - Evidence 3
-  -Text message from Pat to Tracy saying that the attachment needed to be changed to pdf on 7/10/2012 at 15:26:19.
+  - Text message from Pat to Tracy saying that the attachment needed to be changed to pdf on 7/10/2012 at 15:26:19.
 -  Evidence 4
-  - Text message from Carry to Tracy  asking about the flashmob on 7/12/2012 at 13:06:45.
+   - Text message from Carry to Tracy  asking about the flashmob on 7/12/2012 at 13:06:45.
 
 ## Plot Timeline
 The outline of the key events in the order they occurred can be found in  Appendix A.
