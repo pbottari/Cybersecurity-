@@ -118,154 +118,76 @@ This sub-section provides details regarding the evidence found as it relates to 
 
 Images related to the theft of valuable staples from the National Gallery was found on Tracy’s iphone at /img_tracy-phone-2012-07-15-final.E01/vol_vol5/mobile/Media/DCIM/100APPLE/.
 
-The images also had information on the time the pictures were taken, and their latitude, longitude, and altitude coordinates, which placed them at or near the National Gallery.  
+The images also had information on the time the pictures were taken, and their latitude, longitude, and altitude coordinates, which placed them at or near the National Gallery. Some of the images are shown below.   
 
 ### Photographic Evidence of Stamps                                                                                                    
-|Artifact #     | Created Time            | Filename     | Latitude, Longitude and Altitude               | Image                    | 
-|(Internal ID)	|                         |              |                                                |                          | 
-| 43389	        | 2012-07-08 12:37:38 EDT | IMG_0048.JPG | 38.890833333333; -77.022166666666; 52.04618473 |                          |
+|Artifact #     | Created Time            | Filename     | Latitude, Longitude and Altitude               | Image                                           | 
+|(Internal ID)	|                         |              |                                                |                                                 | 
+|---------------|-------------------------|--------------|------------------------------------------------|-------------------------------------------------|
+| 43389	        | 2012-07-08 12:37:38 EDT | IMG_0048.JPG | 38.890833333333; -77.022166666666; 52.04618473 | National Gallery Entrance                       |
+| 43391	        | 2012-07-08 12:41:41 EDT | IMG_0049.JPG | 38.89166667; -77.0235; 78.04526749             | Near National Gallery Sculpture Garden          |	
+| 43393	        | 2012-07-08 12:41:53 EDT | IMG_0050.JPG | 38.89166667; -77.0235; 78.04526749             | Near National Gallery Sculpture Garden          |
+| 43401	        | 2012-07-08 12:49:25 EDT | IMG_0054.JPG | 38.89766667; -77.01966667                      | Near Verizon Centre	                            |	
 
-National Gallery Entrance
 
-	 
-43391	2012-07-08 12:41:41 EDT
-	IMG_0049.JPG
-	38.89166667 -77.0235
-78.04526749
+## Evidence relating to defacement of museum art
 
-Near National Gallery Sculpture Garden	 
-43393	2012-07-08 12:41:53 EDT
-	IMG_0050.JPG	38.89166667 -77.0235
-78.04526749
-
-Near National Gallery Sculpture Garden	 
-43395	2012-07-08 12:42:03 EDT
-	IMG_0051.JPG	38.89166667
--77.0235 78.04526749
-
-Near National Gallery Sculpture Garden	 
-43401	2012-07-08 12:49:25 EDT
-	IMG_0054.JPG	38.89766667 -77.01966667 
-N/A
-
-Near Verizon Centre	 
-43403	2012-07-08 12:49:37 EDT
-	IMG_0055.JPG	38.8976666 -77.01966667 
-N/A
-
-Near Verizon Centre	 
-43405	2012-07-08 12:49:49 EDT
-	IMG_0056.JPG	38.89766667 -77.01966667 
-N/A
-
-Near Verizon Centre	 
-43407	2012-07-08 12:50:07 EDT
-	IMG_0057.JPG	38.89766667 -77.01966667 
-N/A
-
-Near Verizon Centre	 
-43409	2012-07-08 12:50:20 EDT	IMG_0058.JPG	38.89766667 -77.01966667 
-N/A
-
-Near Verizon Centre	 
-43411	2012-07-08 12:50:34 EDT
-	IMG_0059.JPG	N/A	 
-43413	2012-07-08 12:50:50 EDT
-	IMG_0060.JPG	N/A	 
-43415	2012-07-08 12:50:53 EDT
-	IMG_0061.JPG	N/A	 
-43417	2012-07-08 12:51:03 EDT
-	IMG_0062.JPG	N/A	 
-43419	2012-07-08 12:51:14 EDT
-	IMG_0063.JPG	N/A	 
-43423	2012-07-08 12:59:55 EDT
-	IMG_0065.JPG	38.89166667 -77.0235
-78.04526749
-
-Near National Gallery Sculpture Garden	 
-43425	2012-07-08 13:00:01 EDT
-	IMG_0066.JPG	38.89166667 -77.0235 78.04526749
-
-Near National Gallery Sculpture Garden	 
-43427	2012-07-08 13:00:07 EDT
-	IMG_0067.JPG	38.89166667 -77.0235 78.04526749
-
-Near National Gallery Sculpture Garden	 
-43429	2012-07-08 13:00:12 EDT
-	IMG_0068.JPG	38.89166667 -77.0235 78.04526749
-
-Near National Gallery Sculpture Garden	 
-43431	2012-07-08 13:00:23 EDT
-	IMG_0069.JPG	38.89166667 -77.0235 78.04526749
-
-Near National Gallery Sculpture Garden	 
-
-Evidence relating to defacement of museum art
 This sub-section provides details regarding the evidence found as it relates to the defacement of museum art. 
 
-1.	Evidences from:
-/img_tracy_phone-2012-07-15-final.E01/vol_vol5/mobile/Library/Mail/
+- Evidences from /img_tracy_phone-2012-07-15-final.E01/vol_vol5/mobile/Library/Mail/
 
-●	Evidence 1
+- Evidence 1
+  - Email 9F0508B8-04FB-A7F0-3E23B0E7C59B.emlx received on 10th July 2012 at 08:24:57 PDT.
+  - The email was from Pat <patsumtwelve@gmail.com> to Coral <coralbluetwelve@hotmail.com> with the subject “Fwd: can’t pass up”. 
+- Evidence 2
+  - Attachment needs.txt in the email chain 9F0508B8-04FB-A7F0-3E23B0E7C59B.emlx   forwarded by Pat <patsumtwelve@gmail.com> to Coral <coralbluetwelve@hotmail.com> with the subject “Fwd: can’t pass up” on 0th July 2012 at 08:24:57 PDT.
+  - Evidence from SMS.db
+- Evidence 3
+  -Text message from Pat to Tracy saying that the attachment needed to be changed to pdf on 7/10/2012 at 15:26:19.
+-  Evidence 4
+  - Text message from Carry to Tracy  asking about the flashmob on 7/12/2012 at 13:06:45.
 
-Email 9F0508B8-04FB-A7F0-3E23B0E7C59B.emlx received on 10th July 2012 at 08:24:57 PDT.
-The email was from Pat <patsumtwelve@gmail.com> to Coral <coralbluetwelve@hotmail.com> with the subject “Fwd: can’t pass up”. 
-
-●	Evidence 2
-
-Attachment needs.txt in the email chain 9F0508B8-04FB-A7F0-3E23B0E7C59B.emlx   forwarded by Pat <patsumtwelve@gmail.com> to Coral <coralbluetwelve@hotmail.com> with the subject “Fwd: can’t pass up” on 0th July 2012 at 08:24:57 PDT.
-
-2.	Evidence from SMS.db
-
-●	Evidence 3
-
-Text message from Pat to Tracy saying that the attachment needed to be changed to pdf on 7/10/2012 at 15:26:19.
-
-●	 Evidence 4
-
-Text message from Carry to Tracy  asking about the flashmob on 7/12/2012 at 13:06:45.
-
-Plot Timeline
+## Plot Timeline
 The outline of the key events in the order they occurred can be found in  Appendix A.
 
-Conclusion
-●	Evidence found on Tracy’s iPhone indicated the following: 
-a.	Relevant case file data that incriminated Tracy, King, Pat, Carry and Alex.
-b.	 Established Tracy Sumtwelve’s ownership of a device.
-c.	Tracy’s alias Coral Bluetwo, Pat alias Perry Patsum
-d.	Show that the phone had been used to communicate about a heist being planned at the National Gallery 
-e.	Attachment “needs.txt” found in an email containing the listing of tools that they need to execute this heist.
+## Conclusion
+- Evidence found on Tracy’s iPhone indicated the following: 
+  - Relevant case file data that incriminated Tracy, King, Pat, Carry and Alex.
+  - Established Tracy Sumtwelve’s ownership of a device.
+  - Tracy’s alias Coral Bluetwo, Pat alias Perry Patsum
+  - Show that the phone had been used to communicate about a heist being planned at the National Gallery 
+  - Attachment “needs.txt” found in an email containing the listing of tools that they need to execute this heist.
 
-●	Tracy Sumtwelve’s MD5 and SHA-265 hashes of the iPhone disk image:
-a.	MD5 hash: 34c4888f095dc3241330462923f6fea5
-b.	SHA-256 hash: 71aed05a86a753dec4ef4033ed7f52d6577ccb534ca0d1e83ffd27683e621607
+- Tracy Sumtwelve’s MD5 and SHA-265 hashes of the iPhone disk image:
+  - MD5 hash: 34c4888f095dc3241330462923f6fea5
+  - SHA-256 hash: 71aed05a86a753dec4ef4033ed7f52d6577ccb534ca0d1e83ffd27683e621607
 
-●	Tracy’s device information:
-a.	Device model: iPhone (1-2): Autopsy was not able to successfully determine the version of the iPhone. It was between Version 1 and Version 2.
-b.	Device host name: Tracy Sumtwelve’s iPhone
-c.	OS version #: iPhone OS 4.2.1 (8C148)
-d.	Install time: 6/6/2012 19:03:28
-e.	Device serial #: 86004482Y7H
-f.	Information located In: /mobile/Library/Logs/AppleSupport/general.log
+- Tracy’s device information:
+  - Device model: iPhone (1-2): Autopsy was not able to successfully determine the version of the iPhone. It was between Version 1 and Version 2.
+  - Device host name: Tracy Sumtwelve’s iPhone
+  - OS version #: iPhone OS 4.2.1 (8C148)
+  - Install time: 6/6/2012 19:03:28
+  - Device serial #: 86004482Y7H
+  - Information located In: /mobile/Library/Logs/AppleSupport/general.log
 
-●	Tracy’s phone Integrated circuit card ID (ICCID) number: 
-a.	89014103255195342366
-b.	Information located in: /logs/lockdownd.log.1
+- Tracy’s phone Integrated circuit card ID (ICCID): 
+  - Number: 89014103255195342366
+  - Information located in: /logs/lockdownd.log.1
 
-●	Tracy’s phone International Mobile Equipment Identification (IMEI) number: 
-a.	012021003735398
-https://www.imei.info/?imei=012021003735398
-b.	Information located in: /root/Library/Lockdown/activation_records/wildcard_record.plist
+- Tracy’s phone International Mobile Equipment Identification (IMEI): 
+  - Number: 012021003735398
+  - https://www.imei.info/?imei=012021003735398
+  - Information located in: /root/Library/Lockdown/activation_records/wildcard_record.plist
 
-●	Tracy's personal information:
-a.	Phone number: (703) 340-9661
-b.	Personal Email:	tracysumtwelve@gmail.com
-coralbluetwo@hotmail.com  
-c.	Work Email: 		tracy.sumtwelve@nationalgallerydc.org 
-d.	Information located in: vol5/mobile/Library/Mail
-Appendix A: Correspondence Evidence
+- Tracy's personal information:
+  - Phone number: (703) 340-9661
+  - Personal Email: tracysumtwelve@gmail.com and coralbluetwo@hotmail.com  
+  - Work Email: tracy.sumtwelve@nationalgallerydc.org 
+  - Information located in: vol5/mobile/Library/Mail
+
+## Appendix A: Correspondence Evidence
 This subsection will provide an amalgamation of the email and SMS corresponce evidence. The emails were found at  /img_tracy-phone-2012-07-15-final.E01//vol5/mobile/Library/Mail/POP/INBOX.mbox/Messages and the text messages at SMS.db, and analyzed with DB Browser.
-________________________________________
+
 Master Timeline of NGDC
 Emails and Attachments
 Artifact #	Timestamp	Header Information	Key Information 	Evidence Location
